@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录注册页面</title>
+<link rel="stylesheet" href="./component/index.css">
+<script src="./component/index.js"></script>
+</head>
+<body>
+
+	<div class="root">
+     				<div class="logocomtent">
+					   <div class="logo"><br><span>安全登录</span><br>
+					     	<span>请使用<a href="#">QQ手机版</a>扫<br>描二维码</span><br>
+					      <img class="logoimg" src="./component/picturn/img.gif" alt="图片加载">
+                        </div>
+					   <div class="hide">
+
+					   	<img class='hideimg' src="https://imgcache.qq.com/ptlogin/v4/style/20/images/shouQ_v2/small_24_tiny.png" alt="图片加载">
+
+					   </div>
+					   <span class="handl">如何扫描！</span>
+            	</div>
+		        	   <div class="rgMatter">
+					          <div class="upcell">
+					          	<a href="#"><span>注册</span>&nbsp</a> 
+					           <a href="#"><span>登录</span></a>
+					          </div>
+					          <div class="downcell">
+					          	<ul>
+					          		<li><a href="#">微信</li>
+					          		<li><a href="#">QQ</a></li>
+					          		<li><a href="#">博客</a></li>
+					          		<li><a href="#">Git</a></li>
+					          	</ul>
+					          </div>
+					        </div>
+     	           <div class="divfooter">
+		               <span class="footer">认证服务!</span>
+		               <span class="footer">意见反馈！</span>
+		               <span class="footer">@谢谢支持！</span>
+
+                  </div> 
+     </div>
+<script>
+var divshow=document.getElementsByClassName('logocomtent')[0];
+  //  divshow.onclick=function (){show();}
+ divshow.addEventListener('mouseover',show,false);
+ divshow.addEventListener('mouseout',hide,false);
+  
+</script>
+</body>
+</html>
