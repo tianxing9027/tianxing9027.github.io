@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Web</title>
+<link rel="stylesheet" href="./style/theis.css">
+</head>
+<body>
+<div class="header">
+	  <h1 class="logo" >
+	         <a href="https://codepen.io/" id="logoa"></a>
+	 </h1>
+
+	 <span class="link"><a href="./Text/studyPlan.text">学习笔记</a></span>
+	 <span class="link"><a href="./Text/studyPlan.text">学习计划</a></span>
+	 <span class="link"><a href="./Text/studyPlan.text">学习目标</a></span>
+</div>
+<div class="nav">
+	<ul>
+		<li style="background:url(./imgbox/jquery.png )"><a href="https://www.runoob.com/jquery/jquery-tutorial.html"></a></li>
+		<li style="background:url(./imgbox/bootstrap.png )"><a href="http://www.bootcss.com/"></a></li>
+		<li style="background:url(./imgbox/vue.png)"><a href="https://cn.vuejs.org/v2/guide/"></a></li>
+		<li style="background:url(./imgbox/jode.png)"><a href="http://jade-lang.com/api"></a></li>
+		<li style="background:url(./imgbox/react.png )"><a href="http://www.runoob.com/react/react-tutorial.html"></a></li>
+		<li style="background:url(./imgbox/zepto.png )"><a href="http://www.css88.com/doc/zeptojs_api/"></a></li>
+		<li style="background:url(./imgbox/normallze.png )"><a href="http://necolas.github.io/normalize.css/"></a></li>
+		<li style="background:url(./imgbox/animate.png )"><a href="https://daneden.github.io/animate.css/"></a></li>
+		<li style="background:url(./imgbox/backbone.png )"><a href="http://backbonejs.org/"></a></li>
+		<div class="smillNav">更多-》
+			<a href="http://backbonejs.org/"><span class="one" style="background:url(./imgbox/smillone.png)">1</span></a>
+            <a href="http://backbonejs.org/"><span class="one" style="background:url(./imgbox/smilltwo.png)">1</span></a>
+			<a href="http://backbonejs.org/"><span class="one" style="background:url(./imgbox/smillthree.png)">1</span></a>
+		</div>		
+	</ul>
+</div>
+<a href=""></a>
+<div class="banner">
+				<div class="imgleft"><span>来个漂亮大图,轮播</span></div>
+				<div class="imgright"><span>来个漂亮大图,滚动</span></div>
+</div>
+<div class="news">news</div>
+<div class="content">content</div>
+<div class="footer">
+	<span><a href="#">友情链接：</a></span>
+	<span><a href="#">友情链接：</a></span>
+	<span><a href="#">友情链接：</a></span><br>
+	<span><a href="#">友情链接：</a></span>
+	<span><a href="#">友情链接：</a></span>
+	<span><a href="#">友情链接：</a></span>
+</div>
+<script src="./thejs/file.js">
+//      -----更多标签的收起和展开----------
+var smillNav = document.getElementsByClassName('smillNav')[0];
+var span= document.getElementsByTagName('span');
+var len = span.length;
+	smillNav.addEventListener('mouseover',over(len),false);
+    smillNav.addEventListener('mouseout',out(len),false);
+// function over(len){           
+//               for(var j = 3; j < len-8; j++) {
+//               span[j].index=j;
+//               span[j].className = "oneA";                 
+// }      }  
+// function out(len){
+//       for(var j = 3; j < len-8; j++) {
+//               span[j].index=j;
+//               span[j].className = "one";
+// }}
+	</script>
+</body>
+</html>

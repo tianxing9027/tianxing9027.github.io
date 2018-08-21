@@ -1,0 +1,65 @@
+/*  csa的准备工作 */
+	*{
+		margin: 0;border: 0px;padding: 0px;list-style: none;	}
+	body{
+		font-size: 12px;color: #686868;font-family: "微软雅黑";
+	}
+	a{
+		color: #686868;text-decoration: none;         }
+	a:hover{ text-decoration:underline; background-color:#c0c0c0;}
+/*  css部分---  */
+	.header{width:960px ;height:65px ; margin: 0 auto;border-radius: 5%;	}
+	.logo{
+	     width: 200px;
+		height: 35px;
+		background:url(../imgbox/Logoo.png);
+		float: left;margin:10px 0 0 0px ;
+	}
+	#logoa{
+		 display:block; width: 200px;height: 50px;
+	}
+	#logoa:hover{ opacity: 0.1;}
+     .header .link{float:right;width: 100px;height: 55px;margin-top: 10xp;padding-left: 5px;border-radius: 20%;
+     	text-align: center;line-height: 55px;font-size: 20px;background: #ccc;margin: 2px;opacty:0.4;
+     }
+	/* -----------------------------------------------*/	
+	.nav {
+		width: 960px;height: 50px;margin: 0 auto;
+	}
+	.nav li{width: 90px;height: 50px;float:left;margin: 0px 1px;
+	  border-radius: 10%;border: 1px solid red;
+	}
+	.nav ul li a{
+		width:90px;height:50px; display: block;
+	}
+	.smillNav{width: 90px;height: 50px;border: 1px solid red;display: inline-block;border-radius: 20%;font-size: 18px;
+          text-align: center;line-height: 50px;
+	}
+  .one{
+display: none;
+  }
+  .oneA{
+    display: block;border: 1px solid red;
+  }
+	/*     -------------------------------------------------------------  */
+	.banner{
+		width: 960px;height: 383px;margin: 0 auto;border-radius: 10px;
+	}
+	.banner .imgleft{
+		width:50%; height:383px;
+		background-color:yellow;
+		float:left;border-radius: 10px;
+	}
+	.banner .imgright{width: 50%; height: 383px ;background-color:blue; float:right;float:right;border-radius: 10px;}
+	
+/*  ------------------------------------------------------------*/
+	.news{
+		width: 960px; height: 100px; background:#6B0F11 ;margin:  0 auto;font-size:25px;border-radius: 10px;
+	}
+/* --------------------------------------------------------------------	*/
+	.content{
+		width: 960px;height: 220px;background-color:red;margin: 0 auto;border-radius: 10px;
+	}
+	.footer{
+		width: 960px; height: 100px; background:#6B0F11 ;margin:  0 auto;font-size:25px;border-radius: 10px;
+	}
