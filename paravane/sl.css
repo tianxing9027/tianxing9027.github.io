@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.header{
+	width: 100%;height: 50px;
+	top: 0px;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	background-image: url('http://img.lanrentuku.com/img/allimg/1206/5-120601095944.gif');
+
+}
+.wrapper{
+	width: 100%;
+	height: 600px;
+    position: fixed;
+    top:50px;
+    left: 0;
+  background-image:url("http://img.lanrentuku.com/img/allimg/1206/5-1206010T016-50.gif"); 
+  border: 1px dotted red;
+}
+.wrapper:after{display:block;clear:both;content:"";visibility:hidden;height:0;}
+   .wrapper{zoom:1;}	
+.btn{
+	height: 80px;
+	width: 100px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	background-image: url(http://bpic.588ku.com/element_origin_min_pic/18/06/10/30e95826f988cb4ce9c3f3481816f51f.jpg);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.btnks{
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	top: 180px;
+	left: 120px;
+	font-size: 25px;
+	color: #333;
+	font-weight: bold;
+}
+.btnquit{
+	height: 80px;
+	width: 100px;
+	position: absolute;
+	top: 100px;
+	right: 120px;
+	background-image: url(http://bpic.588ku.com/element_origin_min_pic/18/06/09/fe82b55743c0a6786160473cfcde27fd.jpg);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.btnqu{
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	top: 180px;
+	right: 95px;
+	font-size: 25px;
+	color: #333;
+	font-weight: bold;
+}
+.box{
+	height: 500px;
+	width: 500px;
+	transform:perspective(800px) rotateX(45deg);
+	margin: 20px auto;
+	border-top: 1px solid #b25f27;
+	border-left: 1px solid #b25f27;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	display: none;
+}
+.flagBox{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	width: 200px;
+	height: 50px;
+	margin-left: -100px;
+	color: #333;
+	font-size: 20px;
+	font-weight: bolder;
+    display: none; 
+}
+.alertBox{	
+	display:none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.2);
+}
+.alertImg{
+	width: 300px;
+	height: 200px;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	border-radius: 20px;
+}
+.close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	background-image: url(http://imgsrc.baidu.com/imgad/pic/item/0823dd54564e92589615e1d39782d158ccbf4eed.jpg);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.block{
+	width: 49px;
+	height: 49px;
+	border-right: 1px solid #b25f27;
+	border-bottom: 1px solid #b25f27;
+	box-shadow: 0 0 4px #333 inset;
+	background-image: url("http://img.lanrentuku.com/img/allimg/1305/5-13050G32012.jpg");
+	float: left;
+}
+.show{
+	background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533649760338&di=450a1fff8ab78f90d6e8e838cd81951c&imgtype=0&src=http%3A%2F%2Fimg01.taopic.com%2F150225%2F318765-15022504511152.jpg');
+    background-size: 100% 100%;
+}
+.num{
+	background:#ecd0a1;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 49px;
+	text-align: center;
+}
+.flag{
+	background-image: url(http://bpic.588ku.com/element_water_img/18/06/14/bbaeefeeeeaf772fa1b9d2b402df0bf3.jpg);
+	background-size: 100% 100%;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom:250px;
+   .footer:after{display:block;clear:both;content:"";visibility:hidden;height:0;}
+   .footer{zoom:1;}	
+}
+.linker{
+    display: block;
+    width: 150px; height: 40px;
+    margin:10px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    font-size:25px;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 20%;
+    background-image:url("http://img.lanrentuku.com/img/allimg/1209/5-12091QJ151.jpg");
+
+}
+.clearfloat{clear:both};
